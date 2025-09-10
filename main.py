@@ -3,7 +3,7 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("7773993214:AAFqz0KK86gyz6N5D_1dWC5D7r9mUZArlfc")
+TOKEN = os.getenv("7806649577:AAFtY3L0u5adiKI3FUAvhNh3wKLSrVSolBw")
 WEATHER_API_KEY = os.getenv("33550388fb984ac5936151043250909")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
